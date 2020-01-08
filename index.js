@@ -4,6 +4,17 @@ const fs = require ('fs');
 const ms = require ('ms');
 bot.commands = new Discord.Collection;
 
+const http = require('http');
+const express = require('express');
+const app = express();
+app.get("/", (request, response) => {
+ response.sendStatus(200);
+});
+app.listen(process.env.PORT);
+setInterval(() => {
+ http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
+}, 2000);
+
 fs.readdir("./commands/", (err, files) => {
   if(err) console.log(err);
 

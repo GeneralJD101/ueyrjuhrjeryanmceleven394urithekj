@@ -1,0 +1,29 @@
+{
+  "name": "ryanmceleven",
+  "version": "0.2",
+  "description": "Ryan Mceleven",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aWW0Sy64ln9NTe/ryanmceleven.git"
+  },
+  "keywords": [
+    "#closefcps"
+  ],
+  "author": "MD Tasin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aWW0Sy64ln9NTe/ryanmceleven/issues"
+  },
+  "homepage": "https://github.com/aWW0Sy64ln9NTe/ryanmceleven#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "ms": "^2.1.2",
+    "relevant-urban": "^2.0.0"
+  }
+}
